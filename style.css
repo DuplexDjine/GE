@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #0ed190;
+  line-height: 1;
+  background-color: #dee2e6;
+}
+
+.syst {
+  width: 800px;
+  height: 400px;
+  margin: 50px auto;
+  background-color: #2f3937;
+  padding: 32px 48px 32px 86px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.btn-wifi {
+  height: 24px;
+  width: 24px;
+  stroke: #0ed190;
+}
+
+.signalP {
+  margin-bottom: 20px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signalD {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location {
+  height: 24px;
+  width: 24px;
+  stroke: #16dd8d;
+}
+
+.btn {
+  background-color: #dee2e6;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.btn--left {
+  left: 0;
+  transform: translate(-400%, -50%);
+}
+
+.btn--right {
+  right: 0;
+  transform: translate(400%, -50%);
+}
+
+.btn-location {
+  background-color: #2f3937;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
